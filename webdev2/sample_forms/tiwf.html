@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>shriram form</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <div class="topnav">
+  <a class="active" href="#home">Home</a>
+
+  <a href="https://news.google.com/topstories?hl=en-IN&gl=IN&ceid=IN:en">News</a>
+  <a href="#contact">Contact</a>
+  <!-- <a href="#about">About</a> -->
+  <a href="tiw2.html">About</a>
+</div>
+    <form action="/action_page.php">
+    <h1>SIGN UP</h1>
+    <div>
+       <label for="usrname"><strong>Username</strong></label>
+       <input type="text" placeholder="Enter Username" name="usrname" required>
+       <label for="email"><strong>E-mail</strong></label>
+       <input type="text" placeholder="Enter E-mail" name="email" required>
+       <label for="psw"><strong>Password</strong></label>
+       <input type="password" placeholder="Enter Password" name="psw" required>
+      <div>
+        <label for="bdate">Date of Birth<span>*</span></label>
+                  <input id="bdate" type="date" name="bdate" required/>
+
+      </div>
+     <div>
+              <input type="radio" value="none" id="radio_1" name="gender"/>
+              <label for="radio_1" class="radio"><span>Male</span></label>
+            </div>
+            <div>
+              <input  type="radio" value="none" id="radio_2" name="gender"/>
+              <label for="radio_2" class="radio"><span>Female</span></label>
+
+</div>
+<div>
+  <label for="av">Choose a profile picture:</label>
+  <input type="file"
+         id="av" name="av"
+         accept="image/png, image/jpeg">
+
+</div>
+
+
+
+<div>
+  <label for="branch">Choose your branch:</label>
+<input list="branches" id="branch" name="branch" />
+
+<datalist id="branches">
+    <option value="Cse">
+    <option value="it">
+    <option value="ece">
+
+</datalist>
+
+</div>
+<p>Please check to agree before you proceed.</p>
+<p><input id="terms" type="checkbox" name="terms" value="on" /> I agree</p>
+<div class="btn-block">
+  <a href="sss.html"><b>SUBMIT</b></a>
+
+  <!-- <a href="sss.html"></a>
+<button type="submit" href="/">SUBMIT</button> -->
+
+</div>
+</div>
+  </body>
+</html>

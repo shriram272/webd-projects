@@ -1,0 +1,75 @@
+body{background-color:#DFBB9D ;
+  )}
+
+h1{color: #774360;
+  margin: 0;
+  font-size: 40px;
+
+  z-index: 2;
+  line-height: 83px;}
+  h3{color: #774360;}
+/* hr{
+  background-color: #D3E4CD;
+  border-style: dotted none none;
+border-color:grey;
+border-width: 5px;
+  width: 20%;
+} */
+
+
+     body, div, form, input, select, textarea, label, p {
+     padding: 0;
+     margin: 0;
+     outline: none;
+     font-family: Roboto, Arial, sans-serif;
+     font-size: 18px;
+     color: #666;
+     line-height: 30px;
+     }
+     form {
+          width: 100%;
+          padding: 20px;
+          border-radius: 6px;
+
+          box-shadow: 0 0 8px  #669999;
+          }
+          button {
+width: 150px;
+padding: 10px;
+border: none;
+border-radius: 5px;
+background:  #669999;
+font-size: 16px;
+color: #fff;
+cursor: pointer;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.sss{
+  font-family: 'Seaweed Script', cursive;
+  background-color: #D3E4CD;}

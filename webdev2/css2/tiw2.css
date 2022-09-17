@@ -1,0 +1,18 @@
+.top{
+  background-color: #FF9F45;
+}
+body{margin: 0;
+background-color: grey;
+text-align: center;
+font-family: "merriweather", sans-serif;}
+h1{font-size: 4em;
+  margin: 20px auto 0 auto;
+font-family: "sacramento", sans-serif;
+color: #1A5F7A;}
+
+h2{font-size: 1.6rem;}
+.top{position: relative;
+padding-top: 80px;
+font-size: 20px;
+margin-top: 0;
+color: #1A5F7A;}

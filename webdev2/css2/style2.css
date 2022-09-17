@@ -1,0 +1,9 @@
+h1{color : red;
+font-style :oblique ;}
+p{font-family: Verdana;}
+.bacon{background-color: red;
+height: 180px;}
+.bento{background-color: green;
+height: 180px;}
+.circular{border-radius: 90%;}
+img:hover{background-color: yellow;}

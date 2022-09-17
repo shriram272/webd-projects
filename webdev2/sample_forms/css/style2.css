@@ -1,0 +1,39 @@
+
+body{background-color: #D3E4CD;}
+h1{color: #FC4F4F;
+  margin: 0;
+  font-size: 40px;
+
+  z-index: 2;
+  line-height: 83px;}
+
+div,p {
+padding: 0;
+margin: 0;
+outline: none;
+font-family:'Seaweed Script', cursive;, Arial, sans-serif;
+font-size: 18px;
+color: #666;
+line-height: 30px;
+}
+h1 {
+  text-align: center;
+}
+td {
+  width: 100px;
+  height: 100px;
+}
+table {
+  margin: 5px auto;
+}
+.vert {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.hori {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.sss{
+  font-family: 'Seaweed Script', cursive;
+}
